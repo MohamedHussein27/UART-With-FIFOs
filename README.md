@@ -43,13 +43,13 @@ In this section, we verify the functionality of the UART design through various 
 ### First Scenario
 we will write in the Tx_FIFO four different values, transmit two values to Rx_FIFO and then receive just one value from Rx_FIFO
 - **Four different values** written into **Tx_FIFO**:
-![Project Image](https://github.com/MohamedHussein27/FIFO-Verification/blob/main/Doc/FIFO.png)
+![1st_1](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/1st_1.png)
 
 - **Two values** from Tx_FIFO are transmitted to **Rx_FIFO** and data_out is the **first element** in Rx_FIFO:
-![Project Image](https://github.com/MohamedHussein27/FIFO-Verification/blob/main/Doc/FIFO.png)
+![1st_2](https://github.com/MohamedHussein27/FIFO-Verification/blob/main/Doc/FIFO.png)
 
 - Full wave of first scenario:
-![Project Image](https://github.com/MohamedHussein27/FIFO-Verification/blob/main/Doc/FIFO.png)
+![1st_full](https://github.com/MohamedHussein27/FIFO-Verification/blob/main/Doc/FIFO.png)
 
 ### Second Scenario
 _Description of the second scenario goes here..._
