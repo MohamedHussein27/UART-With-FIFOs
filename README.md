@@ -46,10 +46,10 @@ we will write in the Tx_FIFO four different values, transmit two values to Rx_FI
 ![1st_1](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/1st_1.png)
 
 - **Two values** from Tx_FIFO are transmitted to **Rx_FIFO** and data_out is the **first element** in Rx_FIFO:
-![1st_2](https://github.com/MohamedHussein27/FIFO-Verification/blob/main/Doc/FIFO.png)
+![1st_2](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/1st_2.png)
 
 - Full wave of first scenario:
-![1st_full](https://github.com/MohamedHussein27/FIFO-Verification/blob/main/Doc/FIFO.png)
+![1st_full](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/1st_full.png)
 
 ### Second Scenario
 _Description of the second scenario goes here..._
