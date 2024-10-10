@@ -111,10 +111,13 @@ Additionally, to streamline the testing process, I created a **do file** for the
 
 ## Vivado
 - Elaboration:
-![Elaboration](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/3rd_full_2.png)
+![Elaboration](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/Elaboration.png)
 
 - Synthesis:
-![Synthesis](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/3rd_full_2.png)
+![Synthesis](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/Synthesis.png)
+
+- Implementation:
+![Implementation](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/Implementation.png)
 
 ---
 
