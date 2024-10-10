@@ -9,7 +9,7 @@ This repository contains the Verilog implementation of a UART protocol with FIFO
 
 ## UART Structure
 
-> **Note:** Every signal in the structure that is outside the UART TOP boundary will be automatically driven by the testbench or by an external system. For a deeper understanding, feel free to check out my **[System on Chip project](https://github.com/MohamedHussein27/SoC-Design-Connecting-RISC-V-Processor-with-Multiple-peripherals-using-APB-Bus)**.
+> **Note:** Every signal in the structure that is outside the UART TOP boundary will be automatically driven by the testbench or by an external system. For a deeper understanding, feel free to check out my **[System on Chip Project](https://github.com/MohamedHussein27/SoC-Design-Connecting-RISC-V-Processor-with-Multiple-peripherals-using-APB-Bus)**.
 
 ![UART STRUCTURE](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/UART%20Structure.png)
 
