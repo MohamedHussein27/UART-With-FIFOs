@@ -41,7 +41,15 @@ This repository contains the Verilog implementation of a UART protocol with FIFO
 In this section, we verify the functionality of the UART design through various test scenarios, including normal data transmission, corner cases, and error handling. The following scenarios will demonstrate the correctness of the UART implementation:
 
 ### First Scenario
-_Description of the first scenario goes here..._
+we will write in the Tx_FIFO four different values, transmit two values to Rx_FIFO and then receive just one value from Rx_FIFO
+- **Four different values** written into **Tx_FIFO**:
+![Project Image](https://github.com/MohamedHussein27/FIFO-Verification/blob/main/Doc/FIFO.png)
+
+- **Two values** from Tx_FIFO are transmitted to **Rx_FIFO** and data_out is the **first element** in Rx_FIFO:
+![Project Image](https://github.com/MohamedHussein27/FIFO-Verification/blob/main/Doc/FIFO.png)
+
+- Full wave of first scenario:
+![Project Image](https://github.com/MohamedHussein27/FIFO-Verification/blob/main/Doc/FIFO.png)
 
 ### Second Scenario
 _Description of the second scenario goes here..._
