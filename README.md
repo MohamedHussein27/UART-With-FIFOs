@@ -119,6 +119,7 @@ Additionally, to streamline the testing process, I created a **do file** for the
 - Implementation:
 ![Implementation](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/Implementation.png)
 
+
 ---
 
 ## Contact Me!
