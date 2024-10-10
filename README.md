@@ -110,4 +110,15 @@ Additionally, to streamline the testing process, I created a **do file** for the
 ---
 
 ## Vivado
-*Image placeholder for Vivado simulation and synthesis results*
+- Elaboration:
+![Elaboration](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/3rd_full_2.png)
+
+- Synthesis:
+![Synthesis](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/3rd_full_2.png)
+
+---
+
+## Contact Me!
+- [Email](mailto:Mohamed_Hussein2100924@outlook.com)
+- [WhatsApp](https://wa.me/+2001097685797)
+- [LinkedIn](https://www.linkedin.com/in/mohamed-hussein-274337231)
