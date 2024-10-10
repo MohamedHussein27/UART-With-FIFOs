@@ -8,7 +8,10 @@ This repository contains the Verilog implementation of a UART protocol with FIFO
 ---
 
 ## UART Structure
-*Image placeholder for UART structure*
+
+> **Note:** Every signal in the structure that is outside the UART TOP boundary will be automatically driven by the testbench or by an external system. For a deeper understanding, feel free to check out my **[System on Chip project](https://github.com/MohamedHussein27/SoC-Design-Connecting-RISC-V-Processor-with-Multiple-peripherals-using-APB-Bus)**.
+
+![UART STRUCTURE](https://github.com/MohamedHussein27/UART-With-FIFOs/blob/main/Structure/UART%20Structure.png)
 
 ### Work Idea:
 - The **baud generator** takes the system clock and generates the baud clock according to the baud rate selected using the baud select signal. The baud clock then runs the rest of the UART components.
@@ -34,8 +37,8 @@ This repository contains the Verilog implementation of a UART protocol with FIFO
 | **parity_sel**  | Input         | Choses parity bit to be Even or Odd.                                                               |
 | **start_Tx**    | Input         | To start the transaction between the two FIFOs.                                   |
 | **TxFF**        | Internal | Signals when Tx FIFO is Full.                                                          |
-| **receive**          | Input         | order to receive data from external system.                                                                   |
-| **Rx_ready**       | Input        | Flag from Rx_FIFO to state that the FIFO is ready for receiving from Tx_FIFO.                                        |
+| **Receive**          | Input         | order to receive data from external system.                                                                   |
+| **Rx_ready**       | Internal        | Flag from Rx_FIFO to state that the FIFO is ready for receiving from Tx_FIFO.                                        |
 | **Serialized Bits**       | Internal        | serial data from the Tx_FIFO (PISO).                                |
 | **RxFE**   | Internal        | Signals when Rx FIFO is empty.                          |
 | **Data_out**  | Output      | Data out from the UART
