@@ -74,7 +74,7 @@ module Rx_FIFO #(
         endcase
     end
     // output logic
-    always @(posedge baud_clk or posedge rst) begin
+    always @(posedge baud_clk) begin
         if (cs == IDLE) begin
             RxFE <= 1; // FIFO is empty
             RxFF <= 0; // FIFO is not full
