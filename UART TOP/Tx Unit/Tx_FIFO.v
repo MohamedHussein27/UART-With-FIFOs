@@ -73,7 +73,7 @@ module Tx_FIFO #(
     end
 
     //output logic
-    always @(posedge baud_clk or posedge rst) begin
+    always @(posedge baud_clk) begin
         if(cs == IDLE) begin
             data_out <= 1; // as the start bit in the Rx_FIFO is zero so it doesn't start receiving
             filling_counter <= 0;
